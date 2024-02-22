@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>B:\AquaCultura\</ProjectRoot>
+		<SourceFilesRoot>B:\AquaCultura\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>B:\AquaCulture\New Unity Project (2)\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>B:\AquaCultura\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1174212097" Name="Activate_sub" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Activate_sub"/>
+				<Event Id="702608323" Name="Airlock_Close" ObjectPath="\Events\Default Work Unit\Submarine_as_Ellen\Airlock_Close"/>
+				<Event Id="321120070" Name="Airlock_Fill" ObjectPath="\Events\Default Work Unit\Submarine_as_Ellen\Airlock_Fill"/>
+				<Event Id="839967285" Name="Airlock_Open" ObjectPath="\Events\Default Work Unit\Submarine_as_Ellen\Airlock_Open"/>
+				<Event Id="2087900111" Name="Click_01" ObjectPath="\Events\Default Work Unit\UI\Click_01"/>
+				<Event Id="3008375996" Name="Deactivate_sub" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Deactivate_sub" MaxAttenuation="0.000000"/>
+				<Event Id="119346273" Name="Hover_01" ObjectPath="\Events\Default Work Unit\UI\Hover_01"/>
+				<Event Id="969444223" Name="Move_vertical" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Move_vertical"/>
+				<Event Id="2387015931" Name="Play_Ballast_Bubbles" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Play_Ballast_Bubbles"/>
+				<Event Id="30504361" Name="Play_Buzztracks" ObjectPath="\Events\Default Work Unit\Buzztracks\Play_Buzztracks"/>
+				<Event Id="1425715938" Name="Play_Foot_land" ObjectPath="\Events\Default Work Unit\Footstep\Play_Foot_land"/>
+				<Event Id="1602358412" Name="Play_Footstep" ObjectPath="\Events\Default Work Unit\Footstep\Play_Footstep"/>
+				<Event Id="3406355190" Name="Play_Sea_Surface_Ambience" ObjectPath="\Events\Default Work Unit\Play_Sea_Surface_Ambience" MaxAttenuation="10.000000"/>
+				<Event Id="4266079383" Name="Play_sub_move_vert_loop" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Play_sub_move_vert_loop"/>
+				<Event Id="4278625583" Name="ScreenFade" ObjectPath="\Events\Default Work Unit\Gloabal\ScreenFade" MaxAttenuation="0.000000"/>
+				<Event Id="1635250985" Name="Shark_Cage_Land" ObjectPath="\Events\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Land"/>
+				<Event Id="3024138597" Name="Shark_Cage_Move" ObjectPath="\Events\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Move"/>
+				<Event Id="2787053310" Name="Shark_Cage_Stop" ObjectPath="\Events\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Stop" MaxAttenuation="0.000000"/>
+				<Event Id="3752038398" Name="Shop_close_01" ObjectPath="\Events\Default Work Unit\UI\Shop_close_01"/>
+				<Event Id="3978693972" Name="Shop_Confirm" ObjectPath="\Events\Default Work Unit\UI\Shop_Confirm"/>
+				<Event Id="154609209" Name="Stop_Ballast_Bubbles" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Stop_Ballast_Bubbles" MaxAttenuation="0.000000"/>
+				<Event Id="3359101481" Name="Stop_sub_move_vert_loop" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Stop_sub_move_vert_loop" MaxAttenuation="0.000000"/>
+				<Event Id="2416286517" Name="Sub_Launch" ObjectPath="\Events\Default Work Unit\SubmarineCharacter\Sub_Launch"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="4262404" Language="SFX">
+					<ShortName>Footstep_metal_run_02.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_02_A1793BE9.wem</Path>
+				</File>
+				<File Id="71653655" Language="SFX">
+					<ShortName>Footstep_metal_run_09.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_09_A1793BE9.wem</Path>
+				</File>
+				<File Id="78166983" Language="SFX">
+					<ShortName>Footstep_metal_land_06.wav</ShortName>
+					<Path>SFX\Footstep_metal_land_06_A1793BE9.wem</Path>
+				</File>
+				<File Id="95308774" Language="SFX">
+					<ShortName>Shark_Cage_Descend.wav</ShortName>
+					<Path>SFX\Shark_Cage_Descend_BA5C19CB.wem</Path>
+				</File>
+				<File Id="115561406" Language="SFX">
+					<ShortName>UI_UI_shop_close_01.wav</ShortName>
+					<Path>SFX\UI_UI_shop_close_01_A1793BE9.wem</Path>
+				</File>
+				<File Id="121967902" Language="SFX">
+					<ShortName>Underwater_buzztrack.wav</ShortName>
+					<Path>SFX\Underwater_buzztrack_CB1F3167.wem</Path>
+				</File>
+				<File Id="131858640" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_09.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_09_A1793BE9.wem</Path>
+				</File>
+				<File Id="183766898" Language="SFX">
+					<ShortName>Ballast_air_hiss_02.wav</ShortName>
+					<Path>SFX\Ballast_air_hiss_02_23BBC356.wem</Path>
+				</File>
+				<File Id="200227617" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_12.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_12_A1793BE9.wem</Path>
+				</File>
+				<File Id="210683574" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_02.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_02_A1793BE9.wem</Path>
+				</File>
+				<File Id="224452516" Language="SFX">
+					<ShortName>UI_Coins_03.wav</ShortName>
+					<Path>SFX\UI_Coins_03_A1793BE9.wem</Path>
+				</File>
+				<File Id="225456445" Language="SFX">
+					<ShortName>Footstep_metal_land_03.wav</ShortName>
+					<Path>SFX\Footstep_metal_land_03_A1793BE9.wem</Path>
+				</File>
+				<File Id="285972728" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_04.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_04_A1793BE9.wem</Path>
+				</File>
+				<File Id="305998072" Language="SFX">
+					<ShortName>Footstep_metal_run_08.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_08_A1793BE9.wem</Path>
+				</File>
+				<File Id="335048974" Language="SFX">
+					<ShortName>Footstep_metal_land_05.wav</ShortName>
+					<Path>SFX\Footstep_metal_land_05_A1793BE9.wem</Path>
+				</File>
+				<File Id="349983562" Language="SFX">
+					<ShortName>Footstep_metal_run_03.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_03_A1793BE9.wem</Path>
+				</File>
+				<File Id="352042562" Language="SFX">
+					<ShortName>Airlock_WaterFill.wav</ShortName>
+					<Path>SFX\Airlock_WaterFill_A1793BE9.wem</Path>
+				</File>
+				<File Id="358983829" Language="SFX">
+					<ShortName>Footstep_metal_run_01.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_01_A1793BE9.wem</Path>
+				</File>
+				<File Id="422139404" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_10.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_10_A1793BE9.wem</Path>
+				</File>
+				<File Id="430762358" Language="SFX">
+					<ShortName>Footstep_metal_land_04.wav</ShortName>
+					<Path>SFX\Footstep_metal_land_04_A1793BE9.wem</Path>
+				</File>
+				<File Id="434555158" Language="SFX">
+					<ShortName>Airlock_Open.wav</ShortName>
+					<Path>SFX\Airlock_Open_6AE369CA.wem</Path>
+				</File>
+				<File Id="434559686" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_03.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_03_A1793BE9.wem</Path>
+				</File>
+				<File Id="459467576" Language="SFX">
+					<ShortName>Sub_Launch.wav</ShortName>
+					<Path>SFX\Sub_Launch_A1793BE9.wem</Path>
+				</File>
+				<File Id="478019699" Language="SFX">
+					<ShortName>UI_Hover_01.wav</ShortName>
+					<Path>SFX\UI_Hover_01_A1793BE9.wem</Path>
+				</File>
+				<File Id="480781015" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_05.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_05_A1793BE9.wem</Path>
+				</File>
+				<File Id="500504330" Language="SFX">
+					<ShortName>UI_Coins_02.wav</ShortName>
+					<Path>SFX\UI_Coins_02_A1793BE9.wem</Path>
+				</File>
+				<File Id="549781464" Language="SFX">
+					<ShortName>sub_move_vert_loop_noSlosh.wav</ShortName>
+					<Path>SFX\sub_move_vert_loop_noSlosh_CB1F3167.wem</Path>
+				</File>
+				<File Id="557479218" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_06.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_06_A1793BE9.wem</Path>
+				</File>
+				<File Id="568676147" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_01.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_01_A1793BE9.wem</Path>
+				</File>
+				<File Id="597634809" Language="SFX">
+					<ShortName>sub_move_vert_loop_SloshOnly.wav</ShortName>
+					<Path>SFX\sub_move_vert_loop_SloshOnly_CB1F3167.wem</Path>
+				</File>
+				<File Id="600330062" Language="SFX">
+					<ShortName>Footstep_metal_land_02.wav</ShortName>
+					<Path>SFX\Footstep_metal_land_02_A1793BE9.wem</Path>
+				</File>
+				<File Id="623847798" Language="SFX">
+					<ShortName>UI_Click_01.wav</ShortName>
+					<Path>SFX\UI_Click_01_A1793BE9.wem</Path>
+				</File>
+				<File Id="640504501" Language="SFX">
+					<ShortName>Footstep_metal_run_05.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_05_A1793BE9.wem</Path>
+				</File>
+				<File Id="650290186" Language="SFX">
+					<ShortName>Shark_Cage_Descend.wav</ShortName>
+					<Path>SFX\Shark_Cage_Descend_C1E8FC27.wem</Path>
+				</File>
+				<File Id="699106995" Language="SFX">
+					<ShortName>Ballast_air_hiss_01.wav</ShortName>
+					<Path>SFX\Ballast_air_hiss_01_A1793BE9.wem</Path>
+				</File>
+				<File Id="701367581" Language="SFX">
+					<ShortName>Sea_surface_ambience.wav</ShortName>
+					<Path>SFX\Sea_surface_ambience_CB1F3167.wem</Path>
+				</File>
+				<File Id="745252423" Language="SFX">
+					<ShortName>412843__inspectorj__boiling-water-large-a.wav</ShortName>
+					<Path>SFX\412843__inspectorj__boiling-water-large-a_13C4ED61.wem</Path>
+				</File>
+				<File Id="769643646" Language="SFX">
+					<ShortName>Footstep_metal_run_07.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_07_A1793BE9.wem</Path>
+				</File>
+				<File Id="791818596" Language="SFX">
+					<ShortName>Airlock_Close.wav</ShortName>
+					<Path>SFX\Airlock_Close_8CF28921.wem</Path>
+				</File>
+				<File Id="860412568" Language="SFX">
+					<ShortName>Ballast_bubbles_01.wav</ShortName>
+					<Path>SFX\Ballast_bubbles_01_CB1F3167.wem</Path>
+				</File>
+				<File Id="862481968" Language="SFX">
+					<ShortName>Footstep_metal_run_04.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_04_A1793BE9.wem</Path>
+				</File>
+				<File Id="902446953" Language="SFX">
+					<ShortName>Footstep_metal_run_10.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_10_A1793BE9.wem</Path>
+				</File>
+				<File Id="935497993" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_11.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_11_A1793BE9.wem</Path>
+				</File>
+				<File Id="935534028" Language="SFX">
+					<ShortName>Footstep_metal_run_06.wav</ShortName>
+					<Path>SFX\Footstep_metal_run_06_A1793BE9.wem</Path>
+				</File>
+				<File Id="949132468" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_08.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_08_A1793BE9.wem</Path>
+				</File>
+				<File Id="955535705" Language="SFX">
+					<ShortName>Footstep_metal_land_01.wav</ShortName>
+					<Path>SFX\Footstep_metal_land_01_A1793BE9.wem</Path>
+				</File>
+				<File Id="974107876" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_07.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_07_A1793BE9.wem</Path>
+				</File>
+				<File Id="1060906500" Language="SFX">
+					<ShortName>KAIB_AMB_MED_Submarine Engine Room Engines Off Ventilation_000866.wav</ShortName>
+					<Path>SFX\KAIB_AMB_MED_Submarine Engine Room Engines Off Ventilation_000866_CB1F3167.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

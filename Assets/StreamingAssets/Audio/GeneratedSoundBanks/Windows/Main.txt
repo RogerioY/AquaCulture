@@ -1,0 +1,92 @@
+Event	ID	Name			Wwise Object Path	Notes
+	30504361	Play_Buzztracks			\Default Work Unit\Buzztracks\Play_Buzztracks	
+	119346273	Hover_01			\Default Work Unit\UI\Hover_01	
+	154609209	Stop_Ballast_Bubbles			\Default Work Unit\SubmarineCharacter\Stop_Ballast_Bubbles	
+	321120070	Airlock_Fill			\Default Work Unit\Submarine_as_Ellen\Airlock_Fill	
+	702608323	Airlock_Close			\Default Work Unit\Submarine_as_Ellen\Airlock_Close	
+	839967285	Airlock_Open			\Default Work Unit\Submarine_as_Ellen\Airlock_Open	
+	969444223	Move_vertical			\Default Work Unit\SubmarineCharacter\Move_vertical	
+	1174212097	Activate_sub			\Default Work Unit\SubmarineCharacter\Activate_sub	
+	1425715938	Play_Foot_land			\Default Work Unit\Footstep\Play_Foot_land	
+	1602358412	Play_Footstep			\Default Work Unit\Footstep\Play_Footstep	
+	1635250985	Shark_Cage_Land			\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Land	
+	2087900111	Click_01			\Default Work Unit\UI\Click_01	
+	2387015931	Play_Ballast_Bubbles			\Default Work Unit\SubmarineCharacter\Play_Ballast_Bubbles	
+	2416286517	Sub_Launch			\Default Work Unit\SubmarineCharacter\Sub_Launch	
+	2787053310	Shark_Cage_Stop			\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Stop	
+	3008375996	Deactivate_sub			\Default Work Unit\SubmarineCharacter\Deactivate_sub	
+	3024138597	Shark_Cage_Move			\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Move	
+	3359101481	Stop_sub_move_vert_loop			\Default Work Unit\SubmarineCharacter\Stop_sub_move_vert_loop	
+	3406355190	Play_Sea_Surface_Ambience			\Default Work Unit\Play_Sea_Surface_Ambience	
+	3752038398	Shop_close_01			\Default Work Unit\UI\Shop_close_01	
+	3978693972	Shop_Confirm			\Default Work Unit\UI\Shop_Confirm	
+	4266079383	Play_sub_move_vert_loop			\Default Work Unit\SubmarineCharacter\Play_sub_move_vert_loop	
+	4278625583	ScreenFade			\Default Work Unit\Gloabal\ScreenFade	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3358453775	FS_Surfaces			\Default Work Unit\FS_Surfaces	
+	4042377658	Buzztracks			\Default Work Unit\Buzztracks	
+
+Switch	ID	Name	Switch Group			Notes
+	2473969246	Metal	FS_Surfaces			
+	3484696863	Seabed	FS_Surfaces			
+	1053823748	In_water	Buzztracks			
+	1834394558	Surface	Buzztracks			
+	3752336347	In_Sub	Buzztracks			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	681025064	Depth			\Default Work Unit\Depth	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3885233448	SubmarineVerb	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4262404	Footstep_metal_run_02	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_02_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_02		3477
+	71653655	Footstep_metal_run_09	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_09_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_09		4156
+	78166983	Footstep_metal_land_06	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_land_06_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footland\Metal_Land\Footstep_metal_land_06		4425
+	95308774	Shark_Cage_Land	B:\AquaCultura\.cache\Windows\SFX\Shark_Cage_Descend_BA5C19CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Land		15161
+	115561406	UI_shop_close_01	B:\AquaCultura\.cache\Windows\SFX\UI_UI_shop_close_01_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_shop_close_01		17253
+	121967902	Underwater_buzztrack	B:\AquaCultura\.cache\Windows\SFX\Underwater_buzztrack_CB1F3167.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buzztracks\Buzztracks\Underwater_buzztrack		2667722
+	131858640	footstep_dirt_walk_run_09	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_09_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_09		5467
+	183766898	Ballast_air_hiss_02	B:\AquaCultura\.cache\Windows\SFX\Ballast_air_hiss_02_23BBC356.wem		\Actor-Mixer Hierarchy\Default Work Unit\SubmarineCharacter\Ballasts\Ballasts_air_hiss\Ballast_air_hiss_02		16558
+	200227617	footstep_dirt_walk_run_12	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_12_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_12		4323
+	210683574	footstep_dirt_walk_run_02	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_02_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_02		4397
+	224452516	UI_Coins_03	B:\AquaCultura\.cache\Windows\SFX\UI_Coins_03_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Ui_Coins\UI_Coins_03		11526
+	225456445	Footstep_metal_land_03	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_land_03_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footland\Metal_Land\Footstep_metal_land_03		4492
+	285972728	footstep_dirt_walk_run_04	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_04_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_04		5459
+	305998072	Footstep_metal_run_08	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_08_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_08		3674
+	335048974	Footstep_metal_land_05	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_land_05_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footland\Metal_Land\Footstep_metal_land_05		6681
+	349983562	Footstep_metal_run_03	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_03_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_03		3486
+	352042562	Airlock_WaterFill	B:\AquaCultura\.cache\Windows\SFX\Airlock_WaterFill_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Submarine_as_Ellen\Airlock_WaterFill		68024
+	358983829	Footstep_metal_run_01	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_01_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_01		3470
+	422139404	footstep_dirt_walk_run_10	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_10_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_10		4410
+	430762358	Footstep_metal_land_04	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_land_04_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footland\Metal_Land\Footstep_metal_land_04		4851
+	434555158	Airlock_Open	B:\AquaCultura\.cache\Windows\SFX\Airlock_Open_6AE369CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Submarine_as_Ellen\Airlock_Open		28424
+	434559686	footstep_dirt_walk_run_03	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_03_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_03		4483
+	459467576	Sub_Launch	B:\AquaCultura\.cache\Windows\SFX\Sub_Launch_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SubmarineCharacter\Sub_Launch		46267
+	478019699	UI_Hover_01	B:\AquaCultura\.cache\Windows\SFX\UI_Hover_01_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Hover_01		2286
+	480781015	footstep_dirt_walk_run_05	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_05_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_05		4389
+	500504330	UI_Coins_02	B:\AquaCultura\.cache\Windows\SFX\UI_Coins_02_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Ui_Coins\UI_Coins_02		9631
+	549781464	sub_move_vert_loop_noSlosh	B:\AquaCultura\.cache\Windows\SFX\sub_move_vert_loop_noSlosh_CB1F3167.wem		\Actor-Mixer Hierarchy\Default Work Unit\SubmarineCharacter\sub_move_vert_loop_noSlosh		390202
+	557479218	footstep_dirt_walk_run_06	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_06_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_06		5873
+	568676147	footstep_dirt_walk_run_01	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_01_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_01		2682
+	597634809	sub_move_vert_loop_SloshOnly	B:\AquaCultura\.cache\Windows\SFX\sub_move_vert_loop_SloshOnly_CB1F3167.wem		\Actor-Mixer Hierarchy\Default Work Unit\SubmarineCharacter\sub_move_vert_loop_SloshOnly		560499
+	600330062	Footstep_metal_land_02	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_land_02_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footland\Metal_Land\Footstep_metal_land_02		3734
+	623847798	UI_Click_01	B:\AquaCultura\.cache\Windows\SFX\UI_Click_01_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Click_01		19441
+	640504501	Footstep_metal_run_05	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_05_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_05		3063
+	650290186	Shark_Cage_Move	B:\AquaCultura\.cache\Windows\SFX\Shark_Cage_Descend_C1E8FC27.wem		\Actor-Mixer Hierarchy\Default Work Unit\Submarine_as_Ellen\Shark_Cage_Move		48587
+	699106995	Ballast_air_hiss_01	B:\AquaCultura\.cache\Windows\SFX\Ballast_air_hiss_01_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SubmarineCharacter\Ballasts\Ballasts_air_hiss\Ballast_air_hiss_01		18735
+	701367581	Sea_surface_ambience	B:\AquaCultura\.cache\Windows\SFX\Sea_surface_ambience_CB1F3167.wem		\Actor-Mixer Hierarchy\Default Work Unit\Surface_Ambince\Sea_surface_ambience		438206
+	745252423	Surface_bubbling	B:\AquaCultura\.cache\Windows\SFX\412843__inspectorj__boiling-water-large-a_13C4ED61.wem		\Actor-Mixer Hierarchy\Default Work Unit\SubmarineCharacter\Surface_bubbling		165547
+	769643646	Footstep_metal_run_07	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_07_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_07		2824
+	791818596	Airlock_Close	B:\AquaCultura\.cache\Windows\SFX\Airlock_Close_8CF28921.wem		\Actor-Mixer Hierarchy\Default Work Unit\Submarine_as_Ellen\Airlock_Close		29618
+	860412568	Ballast_bubbles_01	B:\AquaCultura\.cache\Windows\SFX\Ballast_bubbles_01_CB1F3167.wem		\Actor-Mixer Hierarchy\Default Work Unit\SubmarineCharacter\Ballasts\Ballast_bubbles_01		16938
+	862481968	Footstep_metal_run_04	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_04_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_04		3540
+	902446953	Footstep_metal_run_10	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_10_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_10		3258
+	935497993	footstep_dirt_walk_run_11	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_11_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_11		4888
+	935534028	Footstep_metal_run_06	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_run_06_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Metal\Footstep_metal_run_06		3816
+	949132468	footstep_dirt_walk_run_08	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_08_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_08		4452
+	955535705	Footstep_metal_land_01	B:\AquaCultura\.cache\Windows\SFX\Footstep_metal_land_01_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footland\Metal_Land\Footstep_metal_land_01		5355
+	974107876	footstep_dirt_walk_run_07	B:\AquaCultura\.cache\Windows\SFX\footstep_dirt_walk_run_07_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Seabed\footstep_dirt_walk_run_07		5186
+	1060906500	Inside_sub_buzztrack	B:\AquaCultura\.cache\Windows\SFX\KAIB_AMB_MED_Submarine Engine Room Engines Off Ventilation_000866_CB1F3167.wem		\Actor-Mixer Hierarchy\Default Work Unit\Buzztracks\Buzztracks\Inside_sub_buzztrack		1671845
+

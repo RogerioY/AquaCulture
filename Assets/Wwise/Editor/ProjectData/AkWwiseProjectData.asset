@@ -1,0 +1,492 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe767c528647e14f9a54c8c24a84c4b, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 
+  m_lastPopulateTimePart2: 0
+  m_lastPopulateTimePsrt1: 0
+  AcousticTextureWwu:
+  - Guid: '{5EA83C84-7E67-4A3E-B35E-8793278D9549}'
+    m_lastTimePart2: -1999237352
+    m_lastTimePsrt1: 1199575334
+    ParentPhysicalPath: 
+    PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    List: []
+  AuxBusWwu:
+  - Guid: '{EB808A76-829B-4F1E-9D96-E99F5CB95D50}'
+    m_lastTimePart2: -1999237352
+    m_lastTimePsrt1: 1199754858
+    ParentPhysicalPath: 
+    PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    List: []
+  BankWwu:
+  - Guid: '{6EAC0402-2DC6-4EBA-93B9-C062E7639714}'
+    m_lastTimePart2: -1999229839
+    m_lastTimePsrt1: 1447055000
+    ParentPhysicalPath: 
+    PhysicalPath: SoundBanks\Default Work Unit.wwu
+    List:
+    - Guid: 1af150b19e9c054b9d71f69d6f8a8dec
+      ID: -1133058374
+      Name: Main
+      Path: Default Work Unit\Main
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+  EventWwu:
+  - Guid: '{D69DEEDC-A341-4E67-BDDD-4669A7A887A3}'
+    m_lastTimePart2: -1999229839
+    m_lastTimePsrt1: 1447005002
+    ParentPhysicalPath: 
+    PhysicalPath: Events\Default Work Unit.wwu
+    List:
+    - Guid: 14ccdf574d64a8419c2007f18f2a8961
+      ID: 1174212097
+      Name: Activate_sub
+      Path: Default Work Unit\SubmarineCharacter\Activate_sub
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Activate_sub
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c772f50e0136a44192d17ca17b3f6030
+      ID: 702608323
+      Name: Airlock_Close
+      Path: Default Work Unit\Submarine_as_Ellen\Airlock_Close
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Submarine_as_Ellen
+        ObjectType: 4
+      - ElementName: Airlock_Close
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 375a3832094acf40bd7cb02e2c6bc75f
+      ID: 321120070
+      Name: Airlock_Fill
+      Path: Default Work Unit\Submarine_as_Ellen\Airlock_Fill
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Submarine_as_Ellen
+        ObjectType: 4
+      - ElementName: Airlock_Fill
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 5033d720a52d114689f7865501ba6137
+      ID: 839967285
+      Name: Airlock_Open
+      Path: Default Work Unit\Submarine_as_Ellen\Airlock_Open
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Submarine_as_Ellen
+        ObjectType: 4
+      - ElementName: Airlock_Open
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 161db87b235d7d45aba97ee05f5bc3c3
+      ID: 2087900111
+      Name: Click_01
+      Path: Default Work Unit\UI\Click_01
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Click_01
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 9f918c787dd24e43bcbe9d386ab7235c
+      ID: -1286591300
+      Name: Deactivate_sub
+      Path: Default Work Unit\SubmarineCharacter\Deactivate_sub
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Deactivate_sub
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b7d2afb3f65f9b45811607016c52a3bb
+      ID: 119346273
+      Name: Hover_01
+      Path: Default Work Unit\UI\Hover_01
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Hover_01
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: f33dca146012cb4894b414f79ef5664f
+      ID: 969444223
+      Name: Move_vertical
+      Path: Default Work Unit\SubmarineCharacter\Move_vertical
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Move_vertical
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d2e934c4642d4340ad31f8c1217c81e3
+      ID: -1907951365
+      Name: Play_Ballast_Bubbles
+      Path: Default Work Unit\SubmarineCharacter\Play_Ballast_Bubbles
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Play_Ballast_Bubbles
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c9600246cd61084aacf7cdb3ccc6673b
+      ID: 30504361
+      Name: Play_Buzztracks
+      Path: Default Work Unit\Buzztracks\Play_Buzztracks
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Buzztracks
+        ObjectType: 4
+      - ElementName: Play_Buzztracks
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: b5b01214c73d114ca2a43f0f501a5dfd
+      ID: 1425715938
+      Name: Play_Foot_land
+      Path: Default Work Unit\Footstep\Play_Foot_land
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep
+        ObjectType: 4
+      - ElementName: Play_Foot_land
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 704f6bd8dd9796499ac7846b6a453e90
+      ID: 1602358412
+      Name: Play_Footstep
+      Path: Default Work Unit\Footstep\Play_Footstep
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footstep
+        ObjectType: 4
+      - ElementName: Play_Footstep
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4d0b51626fe96d42983db1727fd2a3a4
+      ID: -888612106
+      Name: Play_Sea_Surface_Ambience
+      Path: Default Work Unit\Play_Sea_Surface_Ambience
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Play_Sea_Surface_Ambience
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 4782a6abdfa79d45bdb7318db63a4687
+      ID: -28887913
+      Name: Play_sub_move_vert_loop
+      Path: Default Work Unit\SubmarineCharacter\Play_sub_move_vert_loop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Play_sub_move_vert_loop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e38531ed5787564fa1f63562b8b2cc00
+      ID: -16341713
+      Name: ScreenFade
+      Path: Default Work Unit\Gloabal\ScreenFade
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Gloabal
+        ObjectType: 4
+      - ElementName: ScreenFade
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 0d75ffa45523b34a8b22f809b8df95e5
+      ID: -1595227440
+      Name: Shark_Cage_Descend
+      Path: Default Work Unit\Shark_Cage_Descend
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Shark_Cage_Descend
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 023ac77b68ba5942bf550300f3efe31a
+      ID: 1635250985
+      Name: Shark_Cage_Land
+      Path: Default Work Unit\Submarine_as_Ellen\Shark_Cage_Land
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Submarine_as_Ellen
+        ObjectType: 4
+      - ElementName: Shark_Cage_Land
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 1a14c09cd43a714aab0e5219b8f0bfdd
+      ID: -1270828699
+      Name: Shark_Cage_Move
+      Path: Default Work Unit\Submarine_as_Ellen\Shark_Cage_Move
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Submarine_as_Ellen
+        ObjectType: 4
+      - ElementName: Shark_Cage_Move
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e1be2d68efb44743b2eef5375db1c20c
+      ID: -1507913986
+      Name: Shark_Cage_Stop
+      Path: Default Work Unit\Submarine_as_Ellen\Shark_Cage_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Submarine_as_Ellen
+        ObjectType: 4
+      - ElementName: Shark_Cage_Stop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: ea78b14932404c48af45dba1a0d82ac7
+      ID: -542928898
+      Name: Shop_close_01
+      Path: Default Work Unit\UI\Shop_close_01
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Shop_close_01
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: d97638baa80d0e438dadac957b398c27
+      ID: -316273324
+      Name: Shop_Confirm
+      Path: Default Work Unit\UI\Shop_Confirm
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 4
+      - ElementName: Shop_Confirm
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: 8f84dbf0ecd9f64ab2ba8649efc5c489
+      ID: 154609209
+      Name: Stop_Ballast_Bubbles
+      Path: Default Work Unit\SubmarineCharacter\Stop_Ballast_Bubbles
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Stop_Ballast_Bubbles
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: c2611dc2ed6f3a448d995bec058a345e
+      ID: -935865815
+      Name: Stop_sub_move_vert_loop
+      Path: Default Work Unit\SubmarineCharacter\Stop_sub_move_vert_loop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Stop_sub_move_vert_loop
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - Guid: e3dca533eea7a14e8bd392eb2f6c06aa
+      ID: -1878680779
+      Name: Sub_Launch
+      Path: Default Work Unit\SubmarineCharacter\Sub_Launch
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SubmarineCharacter
+        ObjectType: 4
+      - ElementName: Sub_Launch
+        ObjectType: 3
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  ExpandedItems:
+  - /AquaCultura
+  - /AquaCultura/Events
+  - /AquaCultura/Events/Default Work Unit
+  - /AquaCultura/Events/Default Work Unit/UI
+  RtpcWwu:
+  - Guid: '{41BD4DE3-80B7-49A3-BFDD-2FFAC783F699}'
+    m_lastTimePart2: -1999235243
+    m_lastTimePsrt1: 1264286904
+    ParentPhysicalPath: 
+    PhysicalPath: Game Parameters\Default Work Unit.wwu
+    List:
+    - Guid: a4cd850817ffc7469b77f28273e7c8ff
+      ID: 681025064
+      Name: Depth
+      Path: Default Work Unit\Depth
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Depth
+        ObjectType: 13
+    - Guid: c471b52a4de12045b3320b7467b4ac50
+      ID: -1170713551
+      Name: InsideSubLPF
+      Path: Default Work Unit\InsideSubLPF
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: InsideSubLPF
+        ObjectType: 13
+    - Guid: 183941a6ca1ed34d92707382fa310ee7
+      ID: 92320805
+      Name: PropellorSpeed
+      Path: Default Work Unit\PropellorSpeed
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PropellorSpeed
+        ObjectType: 13
+  StateWwu:
+  - Guid: '{37189ACC-CE46-4745-BA3D-32FD2B567D36}'
+    m_lastTimePart2: -1999236922
+    m_lastTimePsrt1: -1700198836
+    ParentPhysicalPath: 
+    PhysicalPath: States\Default Work Unit.wwu
+    List: []
+  SwitchWwu:
+  - Guid: '{8B28DC47-28C3-460E-9A96-E11E3AA74740}'
+    m_lastTimePart2: -1999236650
+    m_lastTimePsrt1: -1520600516
+    ParentPhysicalPath: 
+    PhysicalPath: Switches\Default Work Unit.wwu
+    List:
+    - Guid: 5f16b9e79a03f14da9dbb18e6e5b7d2e
+      ID: -252589638
+      Name: Buzztracks
+      Path: Default Work Unit\Buzztracks
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Buzztracks
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 2721a44ec7bad44fb56876dfe37ee6a5
+      - bytes: 600009b5f2a50448890e0f909faf8e42
+      - bytes: 0a14bd598f457b4cb7a0c8f4c0904bf8
+      ValueIcons:
+      - ElementName: In_Sub
+        ObjectType: 10
+      - ElementName: In_water
+        ObjectType: 10
+      - ElementName: Surface
+        ObjectType: 10
+      valueIDs: db1ba8df0413d03ebea3566d
+      values:
+      - In_Sub
+      - In_water
+      - Surface
+    - Guid: dbceb9b58553384986a7aeacdd89a5d9
+      ID: -936513521
+      Name: FS_Surfaces
+      Path: Default Work Unit\FS_Surfaces
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FS_Surfaces
+        ObjectType: 11
+      ValueGuids:
+      - bytes: 8a5ca6580a434c41afd8385ce8ec837a
+      - bytes: b832c1b8f2ee3d42ad0fe2fec47beb11
+      ValueIcons:
+      - ElementName: Metal
+        ObjectType: 10
+      - ElementName: Seabed
+        ObjectType: 10
+      valueIDs: 5ec675931f41b4cf
+      values:
+      - Metal
+      - Seabed
+  TriggerWwu:
+  - Guid: '{05D6484F-0147-402F-BC82-DC7AAB296960}'
+    m_lastTimePart2: -1999237352
+    m_lastTimePsrt1: 1199461089
+    ParentPhysicalPath: 
+    PhysicalPath: Triggers\Default Work Unit.wwu
+    List: []
